@@ -110,71 +110,13 @@ main .tail .separateur{
     border-bottom: 1px solid #ccc;
 }
 
-
-@media  only screen And (min-width: 600px){
-    main .head{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;        
-    }
-    main .head .texte{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    main .head .texte h1{
-        font-size: 50px;
-    }
-    main .head .texte p{
-      margin-top: -35px; 
-      font-size: 20px;
-    }
-    
-    main .head .form p:nth-child(1){
-        background-color: rgb(255, 255, 255);
-        padding: 30px 10px;
-        box-shadow: 1px 1px 13px #ccc;
-    }
-    main .head .form input , main .head .form button{
-        margin: 10px;
-        width: 200px;
-        height: 35px;
-        border: 1px solid #ccc;
-        border-radius: 2px;
-        outline: #005;
-    }
-    main .head .form button{
-        width: 200px;
-        padding: 10px 5px 25px 5px;
-        border-radius: 5px;
-        color: #fff;
-        background-color: rgb(33, 212, 42);
-    }
-    main .head .form input[type="submit"]{
-        width: 200px;
-    }
-    main .head .form p:nth-child(2){
-        display: inline-block;
-        flex-direction: row;
-        gap: 3px;
-    }
-    main .tail{
+@media only screen and (min-width: 900px){
+    main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #fff;
-        padding: 10px 5px;
-        margin-top: 100px;
+        background: #f0f2f5;
     }
-
-}
-@media only screen and (max-width: 827px) and (max-width: 899px){
-    main .head .texte h1{
-        margin-left: 20px;
-    }
-}
-
-@media  only screen and (min-width: 900px){
     main .head{
         display: flex;
         flex-direction: row;
