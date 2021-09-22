@@ -90,6 +90,9 @@ main .head .form p:nth-child(1){
     flex-direction: column;
     align-items: center;
 }
+main .head .form p:nth-child(2){
+  text-align: center;
+}
 main .tail{
     display: flex;
     flex-direction: column;
